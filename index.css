@@ -1,0 +1,26 @@
+@charset "utf-8";
+.cc {position: absolute; z-index: -1; }
+.no1pick {position: absolute; z-index: 3;  left:541px;top:138px;}
+.no2pick {position: absolute; z-index: 3;  left:837px; top:273px;}
+.no3pick {position: absolute; z-index: 3;  left:1132px; top:138px;}
+.findannabotton {position: absolute; z-index: 3;  left:866px; top:3020px;}
+.buybotton {position: absolute; z-index: 3;  left:275px; top:823px;}
+
+body {  width:1800px; background: url(); margin: 0;}
+header .left { float: left; padding: 10px 0 0 30px; }
+header a { color:#fff; text-decoration:none;}
+header h1 {float: left; padding: 0 30px 0 0;}
+header h1 a {display: block; width: 70px; height: 70px; background: url("로고.png") no-repeat -0px -0px; color:transparent;}
+header nav a {display: block; position:relative; height: 50px; line-height: 50px; font-size: 18px; font-weight: bold;}
+header nav a:before {content: ""; position: absolute; left:0; width:0%; height: 1.5px; background:#fff; top: 37px; transition: width 0.5s;}
+header nav a:hover:before {width:100%;}
+header nav  {font-weight: bold; padding-left: 100% - 60px; margin-top: -10px;}
+header .닫기,
+header .all,
+header h2 {display: none;}
+header .left > div {float: left;}
+header .left > div nav li {float: left; padding: 0 30px 0 0;}
+header > ul {float:right;}
+
+li {list-style:none}
+a.no-uline {text-decoration:none;}
