@@ -1,10 +1,20 @@
 @charset "utf-8";
+.sr {
+  width: 240px;
+  height: 604px;
+
+}
 .cc {position: absolute; z-index: -1; }
-.no1pick {position: absolute; z-index: 3;  left:541px;top:138px;}
-.no2pick {position: absolute; z-index: 3;  left:837px; top:273px;}
-.no3pick {position: absolute; z-index: 3;  left:1132px; top:138px;}
+.box1 {position: absolute; z-index: 3;  left:541px;top:138px; background-image: url('findanna(no1pick).png');}
+.box1:hover {background-image: url('a1.png');}
+.box2 {position: absolute; z-index: 3;  left:837px; top:273px; background-image: url('findanna(no2pick).png');}
+.box2:hover {background-image: url('a2.png');}
+.box3 {position: absolute; z-index: 3;  left:1132px; top:138px; background-image: url('findanna(no3pick).png');}
+.box3:hover {background-image: url('a3.png');}
 .findannabotton {position: absolute; z-index: 3;  left:866px; top:3020px;}
 .buybotton {position: absolute; z-index: 3;  left:275px; top:823px;}
+
+
 
 body {  width:1800px; background: url(); margin: 0;}
 header .left { float: left; padding: 10px 0 0 30px; }
